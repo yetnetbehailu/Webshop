@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Cinzel:wght@600&display=swap');
+
+.nav-content {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: auto;
+}
+
+.nav-item {
+    padding: 5px;
+    font-family: 'Fangsong', sans-serif;
+}
+
+.logo-header {
+    width: 35%;
+}
+
+@media screen and (max-width:871px) {
+    .logo-header {
+        width: 24%;
+    }
+}
+
+.search-btn {
+    background: none;
+    border: none;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.search-input {
+    max-width: 165px;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 5px;
+    border-color: #000000d4;
+}
+
+.site-offer {
+    border: double;
+    border-left: none;
+    border-right: none;
+    animation: moving-title 12s infinite linear;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: 'Cinzel', sans-serif;
+}
+
+@keyframes moving-title {
+    from {
+        text-indent: -30%;
+    }
+
+    to {
+        text-indent: 100%;
+    }
+}
+
+.site-head {
+    background-color: #e0f1ffde;
+    padding: 3px;
+    width: 100vw;
+    height: 55vh;
+}
+
+.newsletter-content {
+    background-color: #d5c4ffc4;
+    width: 100vw;
+    height: 20vh;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.carousel {
+    background-color: #fff;
+    width: 100vw;
+    height: 40vh;
+}
+
+footer {
+    background-color: #e0f1ffde;
+    width: 100vw;
+    height: 20vh;
+}
+
+#subscribeBtn {
+    margin-top: 10px;
+    background-color: #a765ff;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: bold;
+}
+
+.newsText {
+    margin-bottom: 5px;
+    font-family: 'Carter One', sans-serif;
+}
