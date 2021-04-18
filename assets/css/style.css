@@ -57,9 +57,7 @@
     }
 }
 
-.site-head {
-    background-color: #e0f1ffde;
-    padding: 3px;
+.site-head{
     width: 100vw;
     height: 55vh;
 }
@@ -72,16 +70,15 @@
     text-align: center;
 }
 
-.carousel {
+.content {
     background-color: #fff;
     width: 100vw;
     height: 40vh;
 }
 
-footer {
-    background-color: #e0f1ffde;
-    width: 100vw;
-    height: 20vh;
+.newsText {
+    margin-bottom: 5px;
+    font-family: 'Carter One', sans-serif;
 }
 
 #subscribeBtn {
@@ -91,7 +88,67 @@ footer {
     font-weight: bold;
 }
 
-.newsText {
-    margin-bottom: 5px;
-    font-family: 'Carter One', sans-serif;
+.container {
+    max-width: 100%;
+}
+
+.exploreMore {
+    background-color: #d5c4ffc4;
+    width: 100vw;
+    height: 55vh;
+}
+
+.exploreLayout {
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.new{
+    grid-row: 1;
+    grid-column: 1 / span 5;
+    z-index: 2;
+    /* margin-left: 7%; */
+}
+
+.newIn {
+    width: 44vw;
+    height: 36vh;
+}
+
+.editors-picks{
+    grid-column: 6/ span 3;
+    z-index: 1;
+    grid-row: 2;
+    margin-top: -12vh;
+}
+
+.editorImg{
+    width: 20vw;
+    height: 28vh;
+}
+
+.sale {
+    grid-column: 8/ span 4;
+    grid-row: 1;
+}
+
+.salesImg{
+    width: 40.7vw;
+    height: 35vh;
+}
+
+footer {
+    background-color: #e0f1ffde;
+    width: 100vw;
+    height: 20vh;
+}
+
+.info-details {
+    text-align: center;
+}
+
+.info-list {
+    padding-left: 0px;
+    list-style: none;
 }
